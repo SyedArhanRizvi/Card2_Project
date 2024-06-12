@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>User Information Card</h1>
+        <form id="userForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" name="phone" required><br>
+            <label for="village">Village:</label>
+            <input type="text" id="village" name="village" required><br>
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" required><br>
+        </form>
+        <div class="card" id="userCard" style="display: none;">
+            <h2 id="cardName"></h2>
+            <p id="cardPhone"></p>
+            <p id="cardVillage"></p>
+            <p id="cardCity"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
